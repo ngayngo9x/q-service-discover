@@ -1,0 +1,5 @@
+/home/ngayngo9x/workspace/q-service-discover/src/test/java/com/librato/disco/DiscoClientTest.java
+/home/ngayngo9x/workspace/q-service-discover/src/test/java/com/librato/disco/BackoffSelectorStrategyTest.java
+/home/ngayngo9x/workspace/q-service-discover/src/test/java/com/librato/disco/DiscoServiceTest.java
+/home/ngayngo9x/workspace/q-service-discover/src/test/java/com/librato/disco/RandomSelectorStrategyTest.java
+/home/ngayngo9x/workspace/q-service-discover/src/test/java/com/librato/disco/RoundRobinSelectorStrategyTest.java
