@@ -12,8 +12,8 @@
 		<curator.version>2.9.0</curator.version>
 		<junit.version>4.12</junit.version>
 		<mockito-all.version>1.9.5</mockito-all.version>
-		<guava.version>19.0</guava.version>
 		<logback-classic.version>1.1.2</logback-classic.version>
+		<q-commons.version>0.0.1-SNAPSHOT</q-commons.version>
 	</properties>
 
 	<dependencies>
@@ -45,6 +45,12 @@
 			<groupId>org.apache.curator</groupId>
 			<artifactId>curator-client</artifactId>
 			<version>${curator.version}</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>guava</artifactId>
+					<groupId>com.google.guava</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.curator</groupId>
@@ -76,9 +82,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>${guava.version}</version>
+			<groupId>com.pheu.common</groupId>
+			<artifactId>q-commons</artifactId>
+			<version>${q-commons.version}</version>
 		</dependency>
 		<!-- end disco -->
 	</dependencies>
